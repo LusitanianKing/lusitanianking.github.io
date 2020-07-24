@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans:wght@400;600&display=swap');
+
+.va {
+  display: flex;
+  align-items: center;
+}
+
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #254b99;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+}
+
+.hero {
+  background: #060606;
+}
+
+.hero-body {
+  background-color: black;
+  background-image: url('../images/flag.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar .navbar-item {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.navbar .navbar-item.is-active {
+  color: #254b99;
+  font-weight: 700;
+}
+
+.navbar .navbar-item:hover {
+  background: transparent;
+  color: #254b99;
+}
+
+.navbar .navbar-item a {
+  margin-left: 1rem;
+}
